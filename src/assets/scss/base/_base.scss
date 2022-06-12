@@ -1,0 +1,61 @@
+html,
+body {
+  height: 100%;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: var(--body-font);
+  background-color: #1d1e20;
+  width: 100%;
+  height: 100vh;
+  color: var(--body-color);
+  margin: 0 0 0 0;
+
+  @media (max-width: 480px) {
+    padding: 0 0 0 0;
+  }
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--body-color);
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+img {
+  width: 100%;
+}
+
+svg {
+  width: 28px;
+}
+
+#app {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#main {
+  flex: 1 1 auto;
+}
